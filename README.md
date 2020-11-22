@@ -6,4 +6,4 @@
 
  1. Clone the repo (`git clone url`)
  2. Install pacakges (`npm i`)
- 3. Run the script (`node index.ts`)
+ 3. Run the script (`node index.ts [your-username/repository-name]`)
