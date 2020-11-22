@@ -1,0 +1,21 @@
+{
+  "name": "gitssues",
+  "version": "0.0.2",
+  "description": "Confused on what to work on? Gitssues fetches a random issue from your GitHub repository to help you decide. ",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "puppeteer": "^5.5.0"
+  },
+  "bin": {
+    "gitssues": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "issuehunt"
+  ],
+  "author": "Harsh Singh",
+  "license": "MIT"
+}
