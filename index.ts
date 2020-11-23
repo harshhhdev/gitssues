@@ -1,5 +1,3 @@
-#!user/bin/env node
-
 const puppeteer = require('puppeteer')
 
 let repoUrl = process.argv[2]
