@@ -1,6 +1,19 @@
 {
-   "compilerOptions": {
-     "target": "esnext",
-      "watch": true
-   }
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["ESNext"],
+    "module": "ESNext",
+    "noImplicitAny": true,
+    "noUnusedParameters": false,
+    "outDir": "dist",
+    "pretty": true,
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "esnext"
+  },
+  "ts-node": {
+    "pretty": true
+  }
 }
