@@ -1,6 +1,6 @@
 {
   "name": "gitssues",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Confused on what to work on? 🤔 Gitssues fetches a random issue from a repository on GitHub for you to work on.",
   "main": "dist/index.js",
   "type": "module",
