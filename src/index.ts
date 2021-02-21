@@ -1,6 +1,11 @@
+#!/usr/bin/env node
+
 import { Octokit } from '@octokit/rest'
+import { clear } from 'console'
 
 const octokit = new Octokit({})
+
+clear()
 
 const GetIssue = async () => {
   octokit
